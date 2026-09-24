@@ -65,7 +65,7 @@ export default function Home() {
           </a>
           {/* Category 7 */}
           <a href="#" className="category-card">
-            <img src="https://images.unsplash.com/photo-1620283085439-3fdd07849e75?q=80&w=600&auto=format&fit=crop" alt="Power Supplies" />
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop" alt="Power Supplies" />
             <div className="card-overlay">
               <h3>POWER SUPPLIES</h3>
               <p>Server PSUs</p>
@@ -81,7 +81,7 @@ export default function Home() {
           </a>
           {/* Category 9 */}
           <a href="#" className="category-card">
-            <img src="https://images.unsplash.com/photo-1551703599-6b3e8379aa8b?q=80&w=600&auto=format&fit=crop" alt="Servers" />
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Servers" />
             <div className="card-overlay">
               <h3>SERVERS</h3>
               <p>Enterprise Server Systems</p>
@@ -89,7 +89,7 @@ export default function Home() {
           </a>
           {/* Category 10 */}
           <a href="#" className="category-card">
-            <img src="https://images.unsplash.com/photo-1601569420042-30cb105e1a3b?q=80&w=600&auto=format&fit=crop" alt="Storage" />
+            <img src="https://images.unsplash.com/photo-1597852074816-d933c7d2b988?q=80&w=600&auto=format&fit=crop" alt="Storage" />
             <div className="card-overlay">
               <h3>STORAGE</h3>
               <p>HDD, SSD & NVMe</p>
@@ -276,6 +276,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
