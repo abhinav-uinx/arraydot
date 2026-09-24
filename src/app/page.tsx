@@ -17,7 +17,7 @@ export default function Home() {
         <div className="category-grid">
           {/* Category 1 */}
           <a href="#" className="category-card">
-            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="Cables" />
+            <img src="https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44?q=80&w=600&auto=format&fit=crop" alt="Cables" />
             <div className="card-overlay">
               <h3>CABLES</h3>
               <p>Cables & Accessories</p>
@@ -55,7 +55,7 @@ export default function Home() {
           </a>
           {/* Category 6 */}
           <a href="#" className="category-card">
-            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Networking" />
+            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="Networking" />
             <div className="card-overlay">
               <h3>NETWORKING</h3>
               <p>NICs, SFPs & Switches</p>
@@ -79,7 +79,7 @@ export default function Home() {
           </a>
           {/* Category 9 */}
           <a href="#" className="category-card">
-            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=600&auto=format&fit=crop" alt="Servers" />
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=600&auto=format&fit=crop" alt="Servers" />
             <div className="card-overlay">
               <h3>SERVERS</h3>
               <p>Enterprise Server Systems</p>
@@ -274,6 +274,9 @@ export default function Home() {
     </main>
   );
 }
+
+
+
 
 
 
