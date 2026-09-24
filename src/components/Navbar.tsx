@@ -28,7 +28,7 @@ export default function Navbar() {
             </div>
             
             {/* Tagline */}
-            <span style={{ fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: "10px", fontWeight: "700", color: "#A3A3A3", letterSpacing: "3.5px", marginTop: "2px", marginLeft: "2px" }}>ENTERPRISE SOLUTIONS</span>
+            <span style={{ fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: "10px", fontWeight: "700", color: "#9CA3AF", letterSpacing: "5.5px", marginTop: "2px", marginLeft: "2px" }}>ENTERPRISE</span>
           </div>
         </Link>
 
