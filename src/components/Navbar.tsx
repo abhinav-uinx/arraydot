@@ -7,15 +7,11 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="logo" style={{ display: "flex", alignItems: "center", gap: "12px", textDecoration: "none" }}>
           {/* Server Icon Only */}
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" className="brand-logo-svg" style={{ height: "48px", width: "48px" }}>
-            <g className="server-icon">
-              <rect x="0" y="10" width="100" height="35" rx="10" fill="#5d00a6" className="server-rack-top" />
-              <circle cx="75" cy="27.5" r="5" fill="#A0A0A0" />
-              <circle cx="90" cy="27.5" r="5" fill="#A0A0A0" />
-
-              <rect x="0" y="55" width="100" height="35" rx="10" fill="#5d00a6" className="server-rack-bottom" />
-              <circle cx="75" cy="72.5" r="5" fill="#A0A0A0" />
-              <circle cx="90" cy="72.5" r="5" fill="#A0A0A0" />
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" className="brand-logo-svg" style={{ height: "48px", width: "48px" }}>
+            <g transform="translate(6, 6)">
+              <path d="M26 0 H8 a8 8 0 0 0 -8 8 V100 a8 8 0 0 0 8 8 H26" fill="none" stroke="#FFFFFF" strokeWidth="12" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M82 0 H100 a8 8 0 0 1 8 8 V100 a8 8 0 0 1 -8 8 H82" fill="none" stroke="#FFFFFF" strokeWidth="12" strokeLinecap="round" strokeLinejoin="round"/>
+              <rect x="42" y="42" width="24" height="24" rx="5" fill="#1E6FE8" className="accent-dot" />
             </g>
           </svg>
 
