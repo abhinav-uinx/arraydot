@@ -575,13 +575,16 @@ body {
 
 /* Brands Section */
 .brands-section {
-    padding: 60px 5%;
-    max-width: 1200px;
-    margin: 0 auto;
-    border-top: 1px solid #cccccc;
+    width: 100%;
+    background-color: #e5e7eb;
+    padding: 80px 0;
+    border-top: 1px solid #e5e7eb;
 }
 
 .brands-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 15px;
