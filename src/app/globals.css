@@ -84,16 +84,12 @@ body {
 
 .accent-dot {
     transform-origin: 50px 50px;
-    fill: transparent;
-    stroke: #1E6FE8;
-    stroke-width: 4px;
+    fill: #1E6FE8;
     transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .logo:hover .accent-dot {
-    fill: #1E6FE8;
-    stroke-width: 0;
-    transform: scale(2.2);
+    transform: scale(1.6);
 }
 
 .accent-period {
