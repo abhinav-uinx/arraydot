@@ -173,7 +173,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-sitemap brand-icon"></i>
-                <img src="https://img.logo.dev/juniper.net?token=pk_N91VRyDQRQC1FfL6rnQ95Q&format=webp&retina=true" alt="Juniper" className="real-logo" />
+                <img src="https://img.logo.dev/juniper.com?token=pk_N91VRyDQRQC1FfL6rnQ95Q&format=webp&retina=true" alt="Juniper" className="real-logo" />
               
             </div>
             <span>Juniper</span>
@@ -276,6 +276,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
