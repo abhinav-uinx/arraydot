@@ -79,7 +79,7 @@ export default function Home() {
           </a>
           {/* Category 9 */}
           <a href="#" className="category-card">
-            <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=600&auto=format&fit=crop" alt="Servers" />
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=600&auto=format&fit=crop" alt="Servers" />
             <div className="card-overlay">
               <h3>SERVERS</h3>
               <p>Enterprise Server Systems</p>
@@ -274,6 +274,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
