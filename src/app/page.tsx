@@ -8,7 +8,7 @@ export default function Home() {
       <HeroSlider />
       
       {/* Shop By Category Section */}
-      <section className="shop-category">
+      <section className="shop-category-section"><div className="shop-category">
         <div className="section-header">
           <h2>Shop by Category</h2>
           <div className="heading-line"></div>
@@ -276,6 +276,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
