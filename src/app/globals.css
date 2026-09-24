@@ -1,4 +1,4 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -609,13 +609,11 @@ body {
     justify-content: center;
 }
 
-.brand-icon { font-size: 28px; color: var(--primary-color); transition: all 0.3s ease; }
-
-
-
-
-
-.brand-card:hover 
+.brand-icon {
+    font-size: 28px;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
 
 .brand-card span {
     font-size: 13px;
@@ -827,5 +825,3 @@ body {
     .brands-grid { grid-template-columns: repeat(3, 1fr); }
     .services-grid { grid-template-columns: 1fr; }
 }
-
-
