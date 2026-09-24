@@ -1,4 +1,4 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -72,7 +72,7 @@ body {
     align-items: center;
     gap: 12px;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 .logo-icon {
@@ -99,7 +99,7 @@ body {
 
 .logo:hover .highlight {
     transform: translateY(-3px);
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 .server-dots {
@@ -137,7 +137,7 @@ body {
     outline: none;
     transition: all 0.3s ease;
     background: rgba(0, 0, 0, 0.3);
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 .search-bar input::placeholder {
@@ -169,7 +169,7 @@ body {
 
 .btn-signin {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--white);
     font-weight: 500;
     font-size: 13px;
     padding: 8px 18px;
@@ -188,7 +188,7 @@ body {
 }
 
 .btn-cart {
-    color: var(--primary-color);
+    color: var(--white);
     font-size: 22px;
     text-decoration: none;
     transition: color 0.3s;
@@ -218,7 +218,7 @@ body {
     padding: 8px 16px;
     border-radius: 8px;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--white);
     font-weight: 600;
     font-size: 13px;
     text-transform: uppercase;
@@ -237,12 +237,12 @@ body {
 
 .nav-links li:hover > a {
     background: rgba(255, 255, 255, 0.15);
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 .nav-links li.has-dropdown:hover > a i {
     transform: rotate(180deg);
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 /* Dropdown Menu */
@@ -255,11 +255,12 @@ body {
     top: 100%;
     left: 50%;
     transform: translateX(-50%) translateY(10px);
-    background: #ffffff; border-top: 3px solid var(--primary-color);
+    background: #ffffff;
+    border-top: 3px solid var(--primary-color);
     min-width: 240px;
     padding: 10px 0;
     border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
@@ -278,10 +279,14 @@ body {
 
 .dropdown-menu li a {
     padding: 10px 15px;
-    color: #333333; display: flex; justify-content: space-between; align-items: center;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-transform: none;
     font-size: 14px;
     border-radius: 6px;
+    text-shadow: none;
 }
 
 .dropdown-menu li a:hover {
@@ -336,7 +341,7 @@ body {
     position: relative;
     z-index: 2;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--white);
     max-width: 900px;
     width: 100%;
     padding: 0 20px;
@@ -350,7 +355,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 20px;
-    color: var(--primary-color);
+    color: var(--white);
     background: transparent;
     display: flex;
     align-items: center;
@@ -402,7 +407,7 @@ body {
 
 .btn-primary {
     background: var(--primary-color);
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 .btn-primary:hover {
@@ -413,7 +418,7 @@ body {
 
 .btn-outline {
     background: rgba(0,0,0,0.5);
-    color: var(--primary-color);
+    color: var(--white);
     border: 1px solid rgba(255,255,255,0.3);
 }
 
@@ -433,7 +438,7 @@ body {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2);
     border: 2px solid var(--white);
-    color: var(--primary-color);
+    color: var(--white);
     display: none;
     align-items: center;
     justify-content: center;
@@ -542,7 +547,7 @@ body {
     width: 100%;
     padding: 40px 20px 25px;
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 40%, transparent 100%);
-    color: var(--primary-color);
+    color: var(--white);
     text-align: center;
 }
 
@@ -805,7 +810,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary-color);
+    color: var(--white);
     font-size: 28px;
     text-decoration: none;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
@@ -853,6 +858,3 @@ body {
     .brands-grid { grid-template-columns: repeat(3, 1fr); }
     .services-grid { grid-template-columns: 1fr; }
 }
-
-
-
