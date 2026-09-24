@@ -1,69 +1,269 @@
-import Image from "next/image";
+import Navbar from '@/components/Navbar';
+import HeroSlider from '@/components/HeroSlider';
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main>
+      <Navbar />
+      <HeroSlider />
+      
+      {/* Shop By Category Section */}
+      <section className="shop-category">
+        <div className="section-header">
+          <h2>Shop by Category</h2>
+          <div className="heading-line"></div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
+
+        <div className="category-grid">
+          {/* Category 1 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="Cables" />
+            <div className="card-overlay">
+              <h3>CABLES</h3>
+              <p>Cables & Accessories</p>
+            </div>
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+          {/* Category 2 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?q=80&w=600&auto=format&fit=crop" alt="Cooling" />
+            <div className="card-overlay">
+              <h3>COOLING</h3>
+              <p>Fans & Environmental</p>
+            </div>
+          </a>
+          {/* Category 3 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=600&auto=format&fit=crop" alt="Firewalls" />
+            <div className="card-overlay">
+              <h3>FIREWALLS</h3>
+              <p>Network Security</p>
+            </div>
+          </a>
+          {/* Category 4 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="HCI" />
+            <div className="card-overlay">
+              <h3>HCI</h3>
+              <p>Hyperconverged Infrastructure</p>
+            </div>
+          </a>
+          {/* Category 5 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?q=80&w=600&auto=format&fit=crop" alt="Memory" />
+            <div className="card-overlay">
+              <h3>MEMORY</h3>
+              <p>DDR3, DDR4 & DDR5</p>
+            </div>
+          </a>
+          {/* Category 6 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="Networking" />
+            <div className="card-overlay">
+              <h3>NETWORKING</h3>
+              <p>NICs, SFPs & Switches</p>
+            </div>
+          </a>
+          {/* Category 7 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1620283085439-3fdd07849e75?q=80&w=600&auto=format&fit=crop" alt="Power Supplies" />
+            <div className="card-overlay">
+              <h3>POWER SUPPLIES</h3>
+              <p>Server PSUs</p>
+            </div>
+          </a>
+          {/* Category 8 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=600&auto=format&fit=crop" alt="Processors" />
+            <div className="card-overlay">
+              <h3>PROCESSORS</h3>
+              <p>Intel Xeon & AMD EPYC</p>
+            </div>
+          </a>
+          {/* Category 9 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1551703599-6b3e8379aa8b?q=80&w=600&auto=format&fit=crop" alt="Servers" />
+            <div className="card-overlay">
+              <h3>SERVERS</h3>
+              <p>Enterprise Server Systems</p>
+            </div>
+          </a>
+          {/* Category 10 */}
+          <a href="#" className="category-card">
+            <img src="https://images.unsplash.com/photo-1601569420042-30cb105e1a3b?q=80&w=600&auto=format&fit=crop" alt="Storage" />
+            <div className="card-overlay">
+              <h3>STORAGE</h3>
+              <p>HDD, SSD & NVMe</p>
+            </div>
           </a>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Brands We Carry Section */}
+      <section className="brands-section">
+        <h2 className="section-title">Brands We Carry</h2>
+        <div className="brands-grid">
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-server brand-icon"></i>
+              <img src="https://logo.clearbit.com/dell.com" alt="Dell" className="real-logo" />
+            </div>
+            <span>Dell</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-network-wired brand-icon"></i>
+              <img src="https://logo.clearbit.com/hpe.com" alt="HPE" className="real-logo" />
+            </div>
+            <span>HPE</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-laptop brand-icon"></i>
+              <img src="https://logo.clearbit.com/lenovo.com" alt="Lenovo" className="real-logo" />
+            </div>
+            <span>Lenovo</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-database brand-icon"></i>
+              <img src="https://logo.clearbit.com/ibm.com" alt="IBM" className="real-logo" />
+            </div>
+            <span>IBM</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-wifi brand-icon"></i>
+              <img src="https://logo.clearbit.com/cisco.com" alt="Cisco" className="real-logo" />
+            </div>
+            <span>Cisco</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-microchip brand-icon"></i>
+              <img src="https://logo.clearbit.com/supermicro.com" alt="Supermicro" className="real-logo" />
+            </div>
+            <span>Supermicro</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-memory brand-icon"></i>
+              <img src="https://logo.clearbit.com/intel.com" alt="Intel" className="real-logo" />
+            </div>
+            <span>Intel</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-microchip brand-icon"></i>
+              <img src="https://logo.clearbit.com/amd.com" alt="AMD" className="real-logo" />
+            </div>
+            <span>AMD</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-hard-drive brand-icon"></i>
+              <img src="https://logo.clearbit.com/netapp.com" alt="NetApp" className="real-logo" />
+            </div>
+            <span>NetApp</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-sitemap brand-icon"></i>
+              <img src="https://logo.clearbit.com/juniper.net" alt="Juniper" className="real-logo" />
+            </div>
+            <span>Juniper</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-shield-halved brand-icon"></i>
+              <img src="https://logo.clearbit.com/fortinet.com" alt="Fortinet" className="real-logo" />
+            </div>
+            <span>Fortinet</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-hard-drive brand-icon"></i>
+              <img src="https://logo.clearbit.com/seagate.com" alt="Seagate" className="real-logo" />
+            </div>
+            <span>Seagate</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-memory brand-icon"></i>
+              <img src="https://logo.clearbit.com/samsung.com" alt="Samsung" className="real-logo" />
+            </div>
+            <span>Samsung</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-microchip brand-icon"></i>
+              <img src="https://logo.clearbit.com/nvidia.com" alt="NVIDIA" className="real-logo" />
+            </div>
+            <span>NVIDIA</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-brands fa-apple brand-icon"></i>
+              <img src="https://logo.clearbit.com/apple.com" alt="Apple" className="real-logo" />
+            </div>
+            <span>Apple</span>
+          </div>
+          <div className="brand-card">
+            <div className="icon-container">
+              <i className="fa-solid fa-desktop brand-icon"></i>
+              <img src="https://logo.clearbit.com/hp.com" alt="HP" className="real-logo" />
+            </div>
+            <span>HP</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Enterprise Services and Solutions */}
+      <section className="services-section">
+        <h2 className="section-title">Enterprise Services and Solutions</h2>
+        <div className="services-grid">
+          <div className="service-card">
+            <h3>IT Services</h3>
+            <p>TPM, maintenance contracts, SPaaS, ITAD, leasing, and professional services.</p>
+          </div>
+          <div className="service-card">
+            <h3>Server Solutions</h3>
+            <p>AI/ML, database, virtualization, VDI, NAS, and email server configurations.</p>
+          </div>
+          <div className="service-card">
+            <h3>EOSL Library</h3>
+            <p>Check end-of-life dates for 249 server and storage models across 7 brands.</p>
+          </div>
+          <div className="service-card">
+            <h3>Price Match</h3>
+            <p>We match any authorized dealer&apos;s price on genuine enterprise parts.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Shipping / Countries Section */}
+      <section className="shipping-section">
+        <div className="shipping-container">
+          <h3 className="shipping-title">Server parts by country</h3>
+          <p className="shipping-desc">Tested, serial-verified enterprise parts shipped from our Riyadh warehouse. Each country page states the delivery lane and the local import position.</p>
+          <div className="country-links">
+            <a href="#">United States</a> - <a href="#">India</a> - <a href="#">UAE</a> - <a href="#">United Kingdom</a> - <a href="#">Egypt</a> - <a href="#">Germany</a> - <a href="#">Saudi Arabia</a> - <a href="#">Netherlands</a> - <a href="#">Turkey</a> - <a href="#">Pakistan</a> - <a href="#">Poland</a> - <a href="#">Morocco</a>
+          </div>
+          <a href="#" className="view-all-link">All countries we ship to &rarr;</a>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="main-footer">
+        <div className="footer-info">
+          <span><i className="fa-solid fa-truck-fast"></i> Delivery Across MENA, Africa & Beyond</span>
+          <span><i className="fa-solid fa-phone"></i> +966 12 345 6789</span>
+          <span><i className="fa-solid fa-envelope"></i> sales@arabia-it.com</span>
+        </div>
+        <div className="footer-bottom">
+          <p>&copy; 2026 Arabia Enterprise IT Solutions. All Rights Reserved.</p>
+        </div>
+      </footer>
+
+    </main>
   );
 }

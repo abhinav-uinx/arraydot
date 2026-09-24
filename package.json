@@ -9,6 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@amcharts/amcharts5": "^5.20.8",
+    "@amcharts/amcharts5-geodata": "^5.1.6",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.1",
+    "imagekit": "^6.0.0",
+    "imagekitio-next": "^1.0.1",
     "next": "16.3.6",
     "react": "19.2.8",
     "react-dom": "19.2.8"
