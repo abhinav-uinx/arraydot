@@ -46,7 +46,7 @@ export default function Navbar() {
         <ul className="nav-links">
           <li className="has-dropdown">
             <Link href="#">Products <i className="fa-solid fa-chevron-down"></i></Link>
-            <ul className="dropdown-menu" style={{ maxHeight: "70vh", overflowY: "auto", paddingRight: "5px" }}>
+            <ul className="dropdown-menu">
               <li><Link href="#"><span>Browse All Parts</span></Link></li>
               <li><Link href="#"><span>Infrastructure</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
               <li><Link href="#"><span>Security &amp; Networking</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
@@ -101,5 +101,6 @@ export default function Navbar() {
     </header>
   );
 }
+
 
 
