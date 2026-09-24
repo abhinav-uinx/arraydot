@@ -469,10 +469,14 @@ body {
 }
 
 /* Category Section */
+.shop-category-section .section-header h2 {
+    color: #ffffff;
+}
+
 .shop-category-section {
     width: 100%;
-    background-color: #e2e8f0; /* Premium slightly dark slate gray */
-    border-top: 1px solid #e0e4e8;
+    background-color: #1f2937; /* Dark Gray */
+    border-top: 1px solid #374151;
     padding: 80px 0;
     scroll-snap-align: start;
 }
