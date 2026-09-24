@@ -471,7 +471,7 @@ body {
 /* Category Section */
 .shop-category-section {
     width: 100%;
-    background-color: #f0f2f5; /* Visibly slightly dark gray */
+    background-color: #e2e8f0; /* Premium slightly dark slate gray */
     border-top: 1px solid #e0e4e8;
     padding: 80px 0;
     scroll-snap-align: start;
