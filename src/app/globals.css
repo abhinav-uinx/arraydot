@@ -704,15 +704,17 @@ body {
 
 /* Shipping Section */
 .shipping-section {
-    background: #fbfafc;
-    border-top: 1px solid #f0ecf6;
-    padding: 60px 5%;
-    margin-top: 20px;
+    width: 100%;
+    background-color: #e5e7eb;
+    border-top: 1px solid #e5e7eb;
+    padding: 80px 0;
+    margin-top: 0;
 }
 
 .shipping-container {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 5%;
 }
 
 .shipping-title {
