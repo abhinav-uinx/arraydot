@@ -70,53 +70,40 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 12px;
     text-decoration: none;
-    color: var(--white);
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease, filter 0.4s ease;
+    opacity: 0.95;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
-.logo-icon {
-    font-size: 38px;
-    color: var(--primary-color);
-}
-
-.company-name {
-    font-size: 32px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    display: block;
-    line-height: 1;
-    transition: all 0.3s ease;
-}
-
-.company-name .highlight {
-    color: var(--primary-color);
-    transition: all 0.3s ease;
-    font-size: 1.3em;
-    line-height: 0;
-    display: inline-block;
-}
-
-.logo:hover .highlight {
-    transform: translateY(-3px);
-    color: var(--white);
-}
-
-.server-dots {
-    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-.logo:hover .server-dots {
-    transform: translateX(-4px);
+.logo:hover {
+    transform: translateY(-2px);
+    opacity: 1;
+    filter: drop-shadow(0 6px 16px rgba(30, 111, 232, 0.4));
 }
 
 .accent-dot {
     transform-origin: 50px 50px;
-    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    fill: transparent;
+    stroke: #1E6FE8;
+    stroke-width: 4px;
+    transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .logo:hover .accent-dot {
-    transform: scale(1.6);
+    fill: #1E6FE8;
+    stroke-width: 0;
+    transform: scale(2.2);
+}
+
+.accent-period {
+    transform-origin: 398px 87px;
+    fill: #1E6FE8;
+    transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.logo:hover .accent-period {
+    transform: scale(1.3) translateY(-4px);
 }
 
 .company-tagline {
