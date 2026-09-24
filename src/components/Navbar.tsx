@@ -11,7 +11,7 @@ export default function Navbar() {
             <g transform="translate(6, 6)">
               <path d="M26 0 H8 a8 8 0 0 0 -8 8 V100 a8 8 0 0 0 8 8 H26" fill="none" stroke="#FFFFFF" strokeWidth="12" strokeLinecap="round" strokeLinejoin="round"/>
               <path d="M82 0 H100 a8 8 0 0 1 8 8 V100 a8 8 0 0 1 -8 8 H82" fill="none" stroke="#FFFFFF" strokeWidth="12" strokeLinecap="round" strokeLinejoin="round"/>
-              <rect x="42" y="42" width="24" height="24" rx="5" fill="#1E6FE8" className="accent-dot" />
+              <rect x="42" y="42" width="24" height="24" rx="5" fill="#5d00a6" className="accent-dot" />
             </g>
           </svg>
 
