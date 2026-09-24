@@ -105,7 +105,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-server brand-icon"></i>
-                <img src="https://icon.horse/icon/dell.com" alt="Dell" className="real-logo" />
+                <img src="https://img.logo.dev/dell.com" alt="Dell" className="real-logo" />
               
             </div>
             <span>Dell</span>
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-network-wired brand-icon"></i>
-                <img src="https://icon.horse/icon/hpe.com" alt="HPE" className="real-logo" />
+                <img src="https://img.logo.dev/hpe.com" alt="HPE" className="real-logo" />
               
             </div>
             <span>HPE</span>
@@ -121,7 +121,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-laptop brand-icon"></i>
-                <img src="https://icon.horse/icon/lenovo.com" alt="Lenovo" className="real-logo" />
+                <img src="https://img.logo.dev/lenovo.com" alt="Lenovo" className="real-logo" />
               
             </div>
             <span>Lenovo</span>
@@ -129,7 +129,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-database brand-icon"></i>
-                <img src="https://icon.horse/icon/ibm.com" alt="IBM" className="real-logo" />
+                <img src="https://img.logo.dev/ibm.com" alt="IBM" className="real-logo" />
               
             </div>
             <span>IBM</span>
@@ -137,7 +137,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-wifi brand-icon"></i>
-                <img src="https://icon.horse/icon/cisco.com" alt="Cisco" className="real-logo" />
+                <img src="https://img.logo.dev/cisco.com" alt="Cisco" className="real-logo" />
               
             </div>
             <span>Cisco</span>
@@ -145,35 +145,35 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-microchip brand-icon"></i>
-                <img src="https://icon.horse/icon/supermicro.com" alt="Supermicro" className="real-logo" />
+                <img src="https://img.logo.dev/supermicro.com" alt="Supermicro" className="real-logo" />
               </div>
               <span>Supermicro</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-memory brand-icon"></i>
-                <img src="https://icon.horse/icon/intel.com" alt="Intel" className="real-logo" />
+                <img src="https://img.logo.dev/intel.com" alt="Intel" className="real-logo" />
               </div>
               <span>Intel</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-microchip brand-icon"></i>
-                <img src="https://icon.horse/icon/amd.com" alt="AMD" className="real-logo" />
+                <img src="https://img.logo.dev/amd.com" alt="AMD" className="real-logo" />
               </div>
               <span>AMD</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-hard-drive brand-icon"></i>
-                <img src="https://icon.horse/icon/netapp.com" alt="NetApp" className="real-logo" />
+                <img src="https://img.logo.dev/netapp.com" alt="NetApp" className="real-logo" />
               </div>
               <span>NetApp</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-sitemap brand-icon"></i>
-                <img src="https://icon.horse/icon/juniper.net" alt="Juniper" className="real-logo" />
+                <img src="https://img.logo.dev/juniper.net" alt="Juniper" className="real-logo" />
               
             </div>
             <span>Juniper</span>
@@ -181,7 +181,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-shield-halved brand-icon"></i>
-                <img src="https://icon.horse/icon/fortinet.com" alt="Fortinet" className="real-logo" />
+                <img src="https://img.logo.dev/fortinet.com" alt="Fortinet" className="real-logo" />
               
             </div>
             <span>Fortinet</span>
@@ -189,28 +189,28 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-hard-drive brand-icon"></i>
-                <img src="https://icon.horse/icon/seagate.com" alt="Seagate" className="real-logo" />
+                <img src="https://img.logo.dev/seagate.com" alt="Seagate" className="real-logo" />
               </div>
               <span>Seagate</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-memory brand-icon"></i>
-                <img src="https://icon.horse/icon/samsung.com" alt="Samsung" className="real-logo" />
+                <img src="https://img.logo.dev/samsung.com" alt="Samsung" className="real-logo" />
               </div>
               <span>Samsung</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-microchip brand-icon"></i>
-                <img src="https://icon.horse/icon/nvidia.com" alt="NVIDIA" className="real-logo" />
+                <img src="https://img.logo.dev/nvidia.com" alt="NVIDIA" className="real-logo" />
               </div>
               <span>NVIDIA</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-brands fa-apple brand-icon"></i>
-                <img src="https://icon.horse/icon/apple.com" alt="Apple" className="real-logo" />
+                <img src="https://img.logo.dev/apple.com" alt="Apple" className="real-logo" />
               
             </div>
             <span>Apple</span>
@@ -218,7 +218,7 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-desktop brand-icon"></i>
-                <img src="https://icon.horse/icon/hp.com" alt="HP" className="real-logo" />
+                <img src="https://img.logo.dev/hp.com" alt="HP" className="real-logo" />
               
             </div>
             <span>HP</span>
@@ -276,4 +276,6 @@ export default function Home() {
     </main>
   );
 }
+
+
 
