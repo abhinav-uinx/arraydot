@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="header-container">
         {/* Logo */}
         <Link href="/" className="logo">
-          <img src="/logo-primary.svg" alt="Array Logo" style={{ height: "55px", width: "auto" }} />
+          <img src="/logo-white.svg" alt="Array Logo" style={{ height: "55px", width: "auto" }} />
         </Link>
 
         {/* Search Bar */}
@@ -106,6 +106,7 @@ export default function Navbar() {
     </header>
   );
 }
+
 
 
 
