@@ -91,7 +91,27 @@ export default function Navbar() {
               <li><Link href="#"><span>VDI Servers</span></Link></li>
             </ul>
           </li>
-          <li className="has-dropdown"><Link href="#">Data Center <i className="fa-solid fa-chevron-down"></i></Link></li>
+          <li className="has-dropdown">
+            <Link href="#">Data Center <i className="fa-solid fa-chevron-down"></i></Link>
+            <ul className="dropdown-menu">
+              <li><Link href="#"><span>Dell</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>HPE</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>IBM</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>Lenovo</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>Cisco</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>Supermicro</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>NetApp</span></Link></li>
+              <li><Link href="#"><span>Hitachi</span></Link></li>
+              <li><Link href="#"><span>Pure Storage</span></Link></li>
+              <li><Link href="#"><span>Infinidat</span></Link></li>
+              <li><Link href="#"><span>Synology</span></Link></li>
+              <li><Link href="#"><span>QNAP</span></Link></li>
+              <li><Link href="#"><span>Oracle</span></Link></li>
+              <li><Link href="#"><span>Fujitsu</span></Link></li>
+              <li><Link href="#"><span>Huawei</span></Link></li>
+              <li><Link href="#"><span>Nutanix</span></Link></li>
+            </ul>
+          </li>
           <li className="has-dropdown"><Link href="#">Computing <i className="fa-solid fa-chevron-down"></i></Link></li>
           <li className="has-dropdown"><Link href="#">Services <i className="fa-solid fa-chevron-down"></i></Link></li>
           <li><Link href="#">Upgrade Guides</Link></li>
@@ -101,6 +121,7 @@ export default function Navbar() {
     </header>
   );
 }
+
 
 
 
