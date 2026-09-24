@@ -6,7 +6,15 @@ export default function Navbar() {
       <div className="header-container">
         {/* Logo */}
         <Link href="/" className="logo">
-          <img src="/logo-white.svg" alt="Array Logo" style={{ height: "55px", width: "auto" }} />
+          <svg viewBox="0 0 460 160" xmlns="http://www.w3.org/2000/svg" role="img" className="brand-logo-svg" style={{ height: "55px", width: "auto" }}>
+            <g transform="translate(30,30)">
+              <path d="M18 0 H4 a4 4 0 0 0 -4 4 V96 a4 4 0 0 0 4 4 H18" fill="none" stroke="#FFFFFF" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M82 0 H96 a4 4 0 0 1 4 4 V96 a4 4 0 0 1 -4 4 H82" fill="none" stroke="#FFFFFF" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round"/>
+              <rect x="38" y="38" width="24" height="24" rx="5" fill="#1E6FE8" className="accent-dot" />
+            </g>
+            <text x="182" y="102" fontFamily="'Helvetica Neue', Arial, sans-serif" fontSize="64" fontWeight="700" fill="#FFFFFF" letterSpacing="0.5">array</text>
+            <rect x="390" y="79" width="16" height="16" rx="3" fill="#1E6FE8" className="accent-period" />
+          </svg>
         </Link>
 
         {/* Search Bar */}
@@ -106,6 +114,7 @@ export default function Navbar() {
     </header>
   );
 }
+
 
 
 

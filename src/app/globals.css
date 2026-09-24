@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -108,6 +108,15 @@ body {
 
 .logo:hover .server-dots {
     transform: translateX(-4px);
+}
+
+.accent-dot {
+    transform-origin: 50px 50px;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.logo:hover .accent-dot {
+    transform: scale(1.6);
 }
 
 .company-tagline {
@@ -853,3 +862,4 @@ body {
     .brands-grid { grid-template-columns: repeat(3, 1fr); }
     .services-grid { grid-template-columns: 1fr; }
 }
+
