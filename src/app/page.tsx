@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar';
+﻿import Navbar from '@/components/Navbar';
 import HeroSlider from '@/components/HeroSlider';
 
 export default function Home() {
@@ -105,112 +105,112 @@ export default function Home() {
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-server brand-icon"></i>
-              <img src="https://logo.clearbit.com/dell.com" alt="Dell" className="real-logo" />
+              
             </div>
             <span>Dell</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-network-wired brand-icon"></i>
-              <img src="https://logo.clearbit.com/hpe.com" alt="HPE" className="real-logo" />
+              
             </div>
             <span>HPE</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-laptop brand-icon"></i>
-              <img src="https://logo.clearbit.com/lenovo.com" alt="Lenovo" className="real-logo" />
+              
             </div>
             <span>Lenovo</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-database brand-icon"></i>
-              <img src="https://logo.clearbit.com/ibm.com" alt="IBM" className="real-logo" />
+              
             </div>
             <span>IBM</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-wifi brand-icon"></i>
-              <img src="https://logo.clearbit.com/cisco.com" alt="Cisco" className="real-logo" />
+              
             </div>
             <span>Cisco</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-microchip brand-icon"></i>
-              <img src="https://logo.clearbit.com/supermicro.com" alt="Supermicro" className="real-logo" />
+              
             </div>
             <span>Supermicro</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-memory brand-icon"></i>
-              <img src="https://logo.clearbit.com/intel.com" alt="Intel" className="real-logo" />
+              
             </div>
             <span>Intel</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-microchip brand-icon"></i>
-              <img src="https://logo.clearbit.com/amd.com" alt="AMD" className="real-logo" />
+              
             </div>
             <span>AMD</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-hard-drive brand-icon"></i>
-              <img src="https://logo.clearbit.com/netapp.com" alt="NetApp" className="real-logo" />
+              
             </div>
             <span>NetApp</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-sitemap brand-icon"></i>
-              <img src="https://logo.clearbit.com/juniper.net" alt="Juniper" className="real-logo" />
+              
             </div>
             <span>Juniper</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-shield-halved brand-icon"></i>
-              <img src="https://logo.clearbit.com/fortinet.com" alt="Fortinet" className="real-logo" />
+              
             </div>
             <span>Fortinet</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-hard-drive brand-icon"></i>
-              <img src="https://logo.clearbit.com/seagate.com" alt="Seagate" className="real-logo" />
+              
             </div>
             <span>Seagate</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-memory brand-icon"></i>
-              <img src="https://logo.clearbit.com/samsung.com" alt="Samsung" className="real-logo" />
+              
             </div>
             <span>Samsung</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-microchip brand-icon"></i>
-              <img src="https://logo.clearbit.com/nvidia.com" alt="NVIDIA" className="real-logo" />
+              
             </div>
             <span>NVIDIA</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-brands fa-apple brand-icon"></i>
-              <img src="https://logo.clearbit.com/apple.com" alt="Apple" className="real-logo" />
+              
             </div>
             <span>Apple</span>
           </div>
           <div className="brand-card">
             <div className="icon-container">
               <i className="fa-solid fa-desktop brand-icon"></i>
-              <img src="https://logo.clearbit.com/hp.com" alt="HP" className="real-logo" />
+              
             </div>
             <span>HP</span>
           </div>
