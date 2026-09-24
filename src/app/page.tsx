@@ -96,6 +96,7 @@ export default function Home() {
             </div>
           </a>
         </div>
+        </div>
       </section>
 
       {/* Brands We Carry Section */}
@@ -276,6 +277,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
