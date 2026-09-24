@@ -71,32 +71,29 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease, box-shadow 0.4s ease;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease, filter 0.4s ease;
     opacity: 0.95;
-    
-    /* Box styling similar to search bar but frosted white for contrast */
-    background: rgba(255, 255, 255, 0.85);
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 6px;
-    padding: 4px 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
 .logo:hover {
     transform: translateY(-2px);
     opacity: 1;
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 0 6px 16px rgba(30, 111, 232, 0.2);
+    filter: drop-shadow(0 6px 16px rgba(30, 111, 232, 0.4));
 }
 
 .accent-dot {
     transform-origin: 50px 50px;
-    fill: #1E6FE8;
+    fill: transparent;
+    stroke: #1E6FE8;
+    stroke-width: 4px;
     transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .logo:hover .accent-dot {
-    transform: scale(1.6);
+    fill: #1E6FE8;
+    stroke-width: 0;
+    transform: scale(2.2);
 }
 
 .accent-period {
