@@ -5,23 +5,31 @@ export default function Navbar() {
     <header className="main-header">
       <div className="header-container">
         {/* Logo */}
-        <Link href="/" className="logo">
-          <svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg" role="img" className="brand-logo-svg" style={{ height: "55px", width: "auto" }}>
+        <Link href="/" className="logo" style={{ display: "flex", alignItems: "center", gap: "12px", textDecoration: "none" }}>
+          {/* Server Icon Only */}
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" className="brand-logo-svg" style={{ height: "48px", width: "48px" }}>
             <g className="server-icon">
-              <rect x="10" y="25" width="85" height="38" rx="12" fill="#5d00a6" className="server-rack-top" />
-              <circle cx="65" cy="44" r="4.5" fill="#A0A0A0" />
-              <circle cx="80" cy="44" r="4.5" fill="#A0A0A0" />
+              <rect x="0" y="10" width="100" height="35" rx="10" fill="#5d00a6" className="server-rack-top" />
+              <circle cx="75" cy="27.5" r="5" fill="#A0A0A0" />
+              <circle cx="90" cy="27.5" r="5" fill="#A0A0A0" />
 
-              <rect x="10" y="72" width="85" height="38" rx="12" fill="#5d00a6" className="server-rack-bottom" />
-              <circle cx="65" cy="91" r="4.5" fill="#A0A0A0" />
-              <circle cx="80" cy="91" r="4.5" fill="#A0A0A0" />
+              <rect x="0" y="55" width="100" height="35" rx="10" fill="#5d00a6" className="server-rack-bottom" />
+              <circle cx="75" cy="72.5" r="5" fill="#A0A0A0" />
+              <circle cx="90" cy="72.5" r="5" fill="#A0A0A0" />
             </g>
-
-            <text x="115" y="105" fontFamily="'Helvetica Neue', Arial, sans-serif" fontSize="76" fontWeight="800" fill="#FFFFFF" letterSpacing="-1">array</text>
-            <circle cx="318" cy="100" r="10" fill="#5d00a6" className="accent-period" />
-
-            <text x="118" y="142" fontFamily="'Helvetica Neue', Arial, sans-serif" fontSize="18" fontWeight="700" fill="#A3A3A3" letterSpacing="4.5">ENTERPRISE SOLUTIONS</text>
           </svg>
+
+          {/* Typography Wrapper */}
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+            {/* Main Wordmark & Dot */}
+            <div style={{ display: "flex", alignItems: "baseline" }}>
+              <span style={{ fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: "38px", fontWeight: "800", color: "#FFFFFF", letterSpacing: "-1px", lineHeight: "0.9" }}>array</span>
+              <div style={{ width: "9px", height: "9px", backgroundColor: "#5d00a6", borderRadius: "50%", marginLeft: "2px" }}></div>
+            </div>
+            
+            {/* Tagline */}
+            <span style={{ fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: "10px", fontWeight: "700", color: "#A3A3A3", letterSpacing: "3.5px", marginTop: "2px", marginLeft: "2px" }}>ENTERPRISE SOLUTIONS</span>
+          </div>
         </Link>
 
         {/* Search Bar */}
