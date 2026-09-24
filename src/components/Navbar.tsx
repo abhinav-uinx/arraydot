@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -6,7 +6,18 @@ export default function Navbar() {
       <div className="header-container">
         {/* Logo */}
         <Link href="/" className="logo">
-          <i className="fa-solid fa-server logo-icon"></i>
+          <svg width="34" height="34" viewBox="0 0 24 24" className="logo-icon-svg" style={{ color: "var(--primary-color)" }}>
+            <rect x="2" y="4" width="20" height="7" rx="1.5" fill="none" stroke="currentColor" strokeWidth="2" />
+            <rect x="2" y="13" width="20" height="7" rx="1.5" fill="none" stroke="currentColor" strokeWidth="2" />
+            <line x1="6" y1="7.5" x2="10" y2="7.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            <line x1="6" y1="16.5" x2="10" y2="16.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            <g className="server-dots" fill="currentColor">
+              <circle cx="15" cy="7.5" r="1.5" />
+              <circle cx="19" cy="7.5" r="1.5" />
+              <circle cx="15" cy="16.5" r="1.5" />
+              <circle cx="19" cy="16.5" r="1.5" />
+            </g>
+          </svg>
           <div className="logo-text">
             <span className="company-name">array<span className="highlight">.</span></span>
             <span className="company-tagline">Enterprise Solutions</span>
@@ -59,3 +70,4 @@ export default function Navbar() {
     </header>
   );
 }
+
