@@ -44,7 +44,38 @@ export default function Navbar() {
       {/* Navigation Menu */}
       <nav className="main-nav">
         <ul className="nav-links">
-          <li className="has-dropdown"><Link href="#">Products <i className="fa-solid fa-chevron-down"></i></Link></li>
+          <li className="has-dropdown">
+            <Link href="#">Products <i className="fa-solid fa-chevron-down"></i></Link>
+            <ul className="dropdown-menu" style={{ maxHeight: "70vh", overflowY: "auto", paddingRight: "5px" }}>
+              <li><Link href="#"><span>Browse All Parts</span></Link></li>
+              <li><Link href="#"><span>Infrastructure</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>Security &amp; Networking</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>Backup</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><Link href="#"><span>More Brands</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
+              <li><div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "8px 10px" }}></div></li>
+              <li><Link href="#"><span>Dell</span></Link></li>
+              <li><Link href="#"><span>HPE</span></Link></li>
+              <li><Link href="#"><span>Lenovo</span></Link></li>
+              <li><Link href="#"><span>Cisco</span></Link></li>
+              <li><Link href="#"><span>IBM</span></Link></li>
+              <li><Link href="#"><span>Supermicro</span></Link></li>
+              <li><div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "8px 10px" }}></div></li>
+              <li><Link href="#"><span>Memory</span></Link></li>
+              <li><Link href="#"><span>SSD</span></Link></li>
+              <li><Link href="#"><span>Hard Drives</span></Link></li>
+              <li><Link href="#"><span>Processors</span></Link></li>
+              <li><Link href="#"><span>RAID &amp; HBA</span></Link></li>
+              <li><Link href="#"><span>Networking</span></Link></li>
+              <li><Link href="#"><span>Power Supplies</span></Link></li>
+              <li><Link href="#"><span>Cables &amp; Accessories</span></Link></li>
+              <li><Link href="#"><span>Heatsinks &amp; Fans</span></Link></li>
+              <li><Link href="#"><span>Rails &amp; Bezels</span></Link></li>
+              <li><div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "8px 10px" }}></div></li>
+              <li><Link href="#"><span>Cairo (Same Day)</span></Link></li>
+              <li><Link href="#"><span>Saudi Arabia</span></Link></li>
+              <li><Link href="#"><span>UAE &amp; Dubai</span></Link></li>
+            </ul>
+          </li>
           <li className="has-dropdown">
             <Link href="#">Solutions <i className="fa-solid fa-chevron-down"></i></Link>
             <ul className="dropdown-menu">
@@ -70,4 +101,5 @@ export default function Navbar() {
     </header>
   );
 }
+
 
