@@ -14,6 +14,7 @@ export default function Navbar() {
             </g>
             <text x="182" y="102" fontFamily="'Helvetica Neue', Arial, sans-serif" fontSize="64" fontWeight="700" fill="#FFFFFF" letterSpacing="0.5">array</text>
             <rect x="390" y="79" width="16" height="16" rx="3" className="accent-period" />
+              <text x="186" y="138" fontFamily="'Helvetica Neue', Arial, sans-serif" fontSize="18" fontWeight="600" fill="#FFFFFF" letterSpacing="10" opacity="0.8">ENTERPRISE</text>
           </svg>
         </Link>
 
@@ -114,6 +115,8 @@ export default function Navbar() {
     </header>
   );
 }
+
+
 
 
 
