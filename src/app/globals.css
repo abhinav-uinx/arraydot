@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -72,7 +72,7 @@ body {
     align-items: center;
     gap: 12px;
     text-decoration: none;
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .logo-icon {
@@ -99,7 +99,7 @@ body {
 
 .logo:hover .highlight {
     transform: translateY(-3px);
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .server-dots {
@@ -137,7 +137,7 @@ body {
     outline: none;
     transition: all 0.3s ease;
     background: rgba(0, 0, 0, 0.3);
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .search-bar input::placeholder {
@@ -169,7 +169,7 @@ body {
 
 .btn-signin {
     text-decoration: none;
-    color: var(--white);
+    color: var(--primary-color);
     font-weight: 500;
     font-size: 13px;
     padding: 8px 18px;
@@ -188,7 +188,7 @@ body {
 }
 
 .btn-cart {
-    color: var(--white);
+    color: var(--primary-color);
     font-size: 22px;
     text-decoration: none;
     transition: color 0.3s;
@@ -218,7 +218,7 @@ body {
     padding: 8px 16px;
     border-radius: 8px;
     text-decoration: none;
-    color: var(--white);
+    color: var(--primary-color);
     font-weight: 600;
     font-size: 13px;
     text-transform: uppercase;
@@ -237,12 +237,12 @@ body {
 
 .nav-links li:hover > a {
     background: rgba(255, 255, 255, 0.15);
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .nav-links li.has-dropdown:hover > a i {
     transform: rotate(180deg);
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 /* Dropdown Menu */
@@ -255,7 +255,7 @@ body {
     top: 100%;
     left: 50%;
     transform: translateX(-50%) translateY(10px);
-    background: rgba(11, 17, 32, 0.95);
+    background: #ffffff; border-top: 3px solid var(--primary-color);
     min-width: 240px;
     padding: 10px 0;
     border-radius: 8px;
@@ -278,15 +278,15 @@ body {
 
 .dropdown-menu li a {
     padding: 10px 15px;
-    color: #e2e8f0;
+    color: #333333; display: flex; justify-content: space-between; align-items: center;
     text-transform: none;
     font-size: 14px;
     border-radius: 6px;
 }
 
 .dropdown-menu li a:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white);
+    background: #f5f5f5;
+    color: var(--primary-color);
 }
 
 /* Hero Slider */
@@ -336,7 +336,7 @@ body {
     position: relative;
     z-index: 2;
     text-align: center;
-    color: var(--white);
+    color: var(--primary-color);
     max-width: 900px;
     width: 100%;
     padding: 0 20px;
@@ -350,7 +350,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 20px;
-    color: var(--white);
+    color: var(--primary-color);
     background: transparent;
     display: flex;
     align-items: center;
@@ -402,7 +402,7 @@ body {
 
 .btn-primary {
     background: var(--primary-color);
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .btn-primary:hover {
@@ -413,7 +413,7 @@ body {
 
 .btn-outline {
     background: rgba(0,0,0,0.5);
-    color: var(--white);
+    color: var(--primary-color);
     border: 1px solid rgba(255,255,255,0.3);
 }
 
@@ -433,7 +433,7 @@ body {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2);
     border: 2px solid var(--white);
-    color: var(--white);
+    color: var(--primary-color);
     display: none;
     align-items: center;
     justify-content: center;
@@ -542,7 +542,7 @@ body {
     width: 100%;
     padding: 40px 20px 25px;
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 40%, transparent 100%);
-    color: var(--white);
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -805,7 +805,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--white);
+    color: var(--primary-color);
     font-size: 28px;
     text-decoration: none;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
@@ -853,3 +853,6 @@ body {
     .brands-grid { grid-template-columns: repeat(3, 1fr); }
     .services-grid { grid-template-columns: 1fr; }
 }
+
+
+

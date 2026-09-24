@@ -52,14 +52,14 @@ export default function Navbar() {
               <li><Link href="#"><span>Security &amp; Networking</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
               <li><Link href="#"><span>Backup</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
               <li><Link href="#"><span>More Brands</span> <i className="fa-solid fa-chevron-right" style={{ fontSize: "10px", marginLeft: "6px" }}></i></Link></li>
-              <li><div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "8px 10px" }}></div></li>
+              <li><div style={{ height: "1px", background: "rgba(0,0,0,0.1)", margin: "8px 10px" }}></div></li>
               <li><Link href="#"><span>Dell</span></Link></li>
               <li><Link href="#"><span>HPE</span></Link></li>
               <li><Link href="#"><span>Lenovo</span></Link></li>
               <li><Link href="#"><span>Cisco</span></Link></li>
               <li><Link href="#"><span>IBM</span></Link></li>
               <li><Link href="#"><span>Supermicro</span></Link></li>
-              <li><div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "8px 10px" }}></div></li>
+              <li><div style={{ height: "1px", background: "rgba(0,0,0,0.1)", margin: "8px 10px" }}></div></li>
               <li><Link href="#"><span>Memory</span></Link></li>
               <li><Link href="#"><span>SSD</span></Link></li>
               <li><Link href="#"><span>Hard Drives</span></Link></li>
@@ -70,7 +70,7 @@ export default function Navbar() {
               <li><Link href="#"><span>Cables &amp; Accessories</span></Link></li>
               <li><Link href="#"><span>Heatsinks &amp; Fans</span></Link></li>
               <li><Link href="#"><span>Rails &amp; Bezels</span></Link></li>
-              <li><div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "8px 10px" }}></div></li>
+              <li><div style={{ height: "1px", background: "rgba(0,0,0,0.1)", margin: "8px 10px" }}></div></li>
               <li><Link href="#"><span>Cairo (Same Day)</span></Link></li>
               <li><Link href="#"><span>Saudi Arabia</span></Link></li>
               <li><Link href="#"><span>UAE &amp; Dubai</span></Link></li>
@@ -121,6 +121,7 @@ export default function Navbar() {
     </header>
   );
 }
+
 
 
 
