@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Arabia Enterprise IT | Premium Data Center Solutions",
-  description: "Top quality motherboards, processors, and storage solutions for data centers. Delivering worldwide from Saudi Arabia.",
+  title: "Shieldline - Managed Cybersecurity",
+  description: "Managed cybersecurity services.",
 };
 
 export default function RootLayout({
